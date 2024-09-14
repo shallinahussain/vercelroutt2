@@ -1,5 +1,5 @@
 import React from 'react'
-import Link from 'next/Link'
+import Head from 'next/Head'
 const Header = () => {
   return(
      <div className='flex gap-3 p-6 bg-pink-500'>
