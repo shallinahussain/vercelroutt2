@@ -2,10 +2,11 @@ import React from 'react';
 
 const Footer = () => {
     return (
-        <div className="flex gap-3 p-6 bg-gray-500">
-            <p>© 2024 Your Website. All rights reserved.</p>
-            <a href="/privacy">Privacy Policy</a>
-            <a href="/terms">Terms of Service</a>
+        <div className="p-6 bg-gray-500">
+            <p>Contact us on WhatsApp: 
+                <a href="https://wa.me/" target="03232142053_blank" rel="noopener noreferrer"> Click here</a>
+            </p>
+            <p className="mt-4">© 2024 YourCompany. All rights reserved.</p>
         </div>
     );
 }
